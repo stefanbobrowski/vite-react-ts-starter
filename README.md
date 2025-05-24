@@ -1,20 +1,46 @@
-# React + TypeScript + Vite
+# Vite + React + TypeScript – Starter Template
 
-# vite-react-ts-starter
+## 🚀 What is this?
 
-# Vite React Typescript Starter Template
+This is a modern and minimal starter template for building React apps using Vite, TypeScript, and SCSS. It's designed for real-world production readiness, but light enough to be cloned and extended for personal projects.
 
-Vite -> React -> TypeScript SWC
+Built with:
 
-This is a starter template for using Vite -> React -> TypeScript. Scaffolded from Vite with TypeScript SWC. This includes the following additions:
+- ⚡ Vite (with SWC for fast builds)
+- ⚛️ React 19
+- 🧠 TypeScript
+- 🎨 SCSS + CSS Modules
+- 🎯 React Router
+- 🛠️ ESLint + Prettier + EditorConfig
 
-1.) React Router with page and navlink setup
-2.) Typescript types for react router dom and anything else?
-3.) SASS
-4.) CSS modules for scoped classes
-5.) css reset
-6.) Dark / light theme
-7.) Example component setup
-8.) ESlint / Prettier config setup
+---
 
-Nothing super opinionated just modern best practices.
+## 📦 Features
+
+1. ✅ **React Router v6** with `NavLink` and layout-ready routing
+2. ✅ **TypeScript** setup with type safety and strict mode
+3. ✅ **SASS (SCSS)** with modular file support
+4. ✅ **CSS Modules** for scoped and safe styles
+5. ✅ **Global CSS Reset**
+6. ✅ **Dark/Light theme support** using CSS custom properties
+7. ✅ **Example Component** with SCSS modules and hooks
+8. ✅ **VS Code integration** (`.vscode/settings.json`, `.editorconfig`)
+9. ✅ **ESLint + Prettier** pre-configured for modern standards
+
+🔧 Nothing super opinionated. Just fast, clean, and extensible.
+
+---
+
+## 🧑‍💻 Author
+
+Created by [@stefanbobrowski](https://github.com/stefanbobrowski)  
+🌐 [https://stefanbobrowski.com](https://stefanbobrowski.com)
+
+---
+
+## 📄 License
+
+Licensed under the **Apache License 2.0**.  
+See [LICENSE](./LICENSE) for full details.
+
+---
