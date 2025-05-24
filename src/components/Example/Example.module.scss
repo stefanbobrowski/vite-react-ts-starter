@@ -1,9 +1,11 @@
-@use "../../styles/_variables" as *;
+@use '../../styles/_variables' as *;
 
 .example {
+  max-width: $max-content-width;
   padding: 1rem;
-  color: var(--color-text);
+  border: 1px solid var(--color-text);
   background-color: var(--color-primary);
+  color: var(--color-text);
 }
 
 .title {
