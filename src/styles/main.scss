@@ -1,9 +1,9 @@
-@use "./_reset";
-@use "./variables" as *;
+@use './_reset';
+@use './variables' as *;
 
 :root {
   /* html tag */
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -22,7 +22,7 @@
   --disabled-text: #bbb;
 }
 
-[theme="dark"] {
+[theme='dark'] {
   --color-background: #222;
   --color-text: #eee;
   --color-primary: #007bff;
@@ -48,6 +48,6 @@ body {
 
   & > main {
     flex: 1;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 }
