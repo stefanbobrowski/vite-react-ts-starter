@@ -1,0 +1,11 @@
+@use "../../styles/_variables" as *;
+
+.example {
+  padding: 1rem;
+  color: var(--color-text);
+  background-color: var(--color-primary);
+}
+
+.title {
+  color: var(--color-text);
+}

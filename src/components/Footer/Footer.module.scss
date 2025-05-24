@@ -1,0 +1,13 @@
+@use "../../styles/_variables" as *;
+
+.footer {
+  margin-block-start: auto;
+  padding: 1rem;
+  border-top: 1px solid var(--color-text);
+  background-color: var(--color-background);
+}
+
+.footer-inner-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}

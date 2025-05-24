@@ -1,0 +1,133 @@
+@use './_variables' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+h2 {
+  margin-block: 1.5rem;
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-block: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  max-width: $max-content-width;
+  margin-block: 0.8rem;
+
+  @media (min-width: 1200px) {
+    font-size: 1.125rem;
+  }
+}
+
+ol,
+ul {
+  padding-inline-start: 1rem;
+}
+
+ul {
+  max-width: $max-content-width;
+  color: var(-color-text);
+}
+
+ol > li {
+  padding-inline-start: 0.75rem;
+}
+
+a {
+  display: inline-block;
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: inherit;
+
+  &:hover {
+    color: var(--color-contrast);
+  }
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  outline: 1px solid var(--color-text);
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  cursor: pointer;
+
+  &:focus,
+  &:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  &:disabled {
+    background-color: var(--disabled);
+    border-color: var(--disabled-text);
+    color: var(--disabled-text);
+    cursor: not-allowed;
+  }
+}
+
+textarea {
+  max-width: 100%;
+}
+
+input,
+textarea {
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 0.5rem;
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  font-size: 1rem;
+}
+
+table {
+  margin-block: 1rem;
+  margin-inline: 0;
+  background-color: var(--header-footer-bg);
+
+  th {
+    background-color: var(--light);
+  }
+
+  tr:nth-of-type(odd) {
+    background-color: var(--bg);
+  }
+}
+
+table,
+th,
+td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  padding: 0.7rem 1rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+}

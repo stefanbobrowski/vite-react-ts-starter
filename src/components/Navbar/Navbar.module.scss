@@ -1,0 +1,13 @@
+nav {
+  a {
+    margin-inline: 1rem;
+
+    &:first-of-type {
+      margin-inline-start: 0;
+    }
+  }
+}
+
+.active {
+  color: var(--color-contrast);
+}

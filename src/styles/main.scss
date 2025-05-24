@@ -1,0 +1,53 @@
+@use "./_reset";
+@use "./variables" as *;
+
+:root {
+  /* html tag */
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-background: #eee;
+  --color-text: #111;
+  --color-primary: #2f93ff;
+  --color-contrast: #ff712f;
+  --input-bg: #ddd;
+  --input-text: #333;
+  --disabled: #ddd;
+  --disabled-text: #bbb;
+}
+
+[theme="dark"] {
+  --color-background: #222;
+  --color-text: #eee;
+  --color-primary: #007bff;
+  --color-contrast: #dc3545;
+  --input-bg: #000;
+  --input-text: #ddd;
+  --disabled: #222;
+  --disabled-text: #444;
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+#root {
+  // The <div id="root"> element inside <body>
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+
+  & > main {
+    flex: 1;
+    padding: 1rem;
+  }
+}
