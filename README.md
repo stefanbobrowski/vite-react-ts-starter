@@ -26,6 +26,7 @@ Built with:
 7. ✅ **Example Component** with SCSS modules and hooks
 8. ✅ **VS Code integration** (`.vscode/settings.json`, `.editorconfig`)
 9. ✅ **ESLint + Prettier** pre-configured for modern standards
+10. ✅ **GitHub Actions PR Validation** – Automatically lints and builds on pull requests targeting `main`
 
 🔧 Nothing super opinionated. Just fast, clean, and extensible.
 
@@ -35,6 +36,12 @@ Built with:
 
 Created by [@stefanbobrowski](https://github.com/stefanbobrowski)  
 🌐 [https://stefanbobrowski.com](https://stefanbobrowski.com)
+
+---
+
+## 🧷 GitHub Code
+
+[GitHub – vite-react-ts-starter](https://github.com/stefanbobrowski/vite-react-ts-starter)
 
 ---
 
